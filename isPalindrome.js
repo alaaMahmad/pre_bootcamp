@@ -1,6 +1,6 @@
 function isPalindrome(arr) {
-    let i = 0;
-    let j = arr.length - 1;
+    var i = 0;
+    var j = arr.length - 1;
 
     while (i < j) {
         if (arr[i] !== arr[j]) {
@@ -13,5 +13,5 @@ function isPalindrome(arr) {
     return true; 
 }
 
-var arr = [1, 2, 1];
+var arr = [1, 2, 1, 2, 1];
 console.log(isPalindrome(arr)); 
